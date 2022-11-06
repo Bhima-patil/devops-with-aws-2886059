@@ -17,5 +17,9 @@ phases:
     post_build:
         commands:
             - echo "This is the post build phase"
-            
+  
+artifacts:
+  files:
+    - '**/*'
+  name: DevOpsAppArtifacts           
             
